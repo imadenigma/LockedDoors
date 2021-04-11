@@ -1,0 +1,5 @@
+name: LockedDoors
+version: @version@
+main: me.imadenigma.lockeddoors.LockedDoors
+api-version: 1.16
+description: A custom made plugin for lock doors and unlock them by guis

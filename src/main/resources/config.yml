@@ -1,0 +1,43 @@
+# +------------------------------------------------------+ #
+# |                Locked Doors                          | #
+# +------------------------------------------------------+ #
+
+# This is the config file for HyvoidLockedDoors.
+# This config was generated for version 1.0.
+
+Prefix: "&8&l[&5&l Locked Doors&8&l] &f-"
+
+# +------------------------------------------------------+ #
+# |                     Messages                         | #
+# +------------------------------------------------------+ #
+
+Select: "&fLeft click a door within 10 seconds"
+SuccessSelect: "&fYour password is --> "
+ErrorSelect: "&f10 seconds are up. Exited door selection"
+Remove: "&fLeft click a door within 10 seconds"
+SuccessRemove: "&fPasscode removed successfully!"
+ErrorRemove: "&f10 seconds are up. Exited door removal"
+
+# /hld & /hld help:
+Hld: "/hld select/remove"
+HldHelp1: "&5/hld select: &fLeft click on a door after executing the command to select a door you wish to lick and put a passcode on..."
+HldHelp2: "&fLeft click on a door after executing the command to remove the passcode from the selected door..."
+HldHelp3: "&fLeft click on a door after executing the command to remove the passcode from the selected door..."
+HldHelp4: "&fLeft click on a door after executing the command to remove the passcode from the selected door..."
+HldHelp5: "&fLeft click on a door after executing the command to remove the passcode from the selected door..."
+FailUnlock: "Wrong Passcode!"
+# +------------------------------------------------------+ #
+# |                       Colors                         | #
+# +------------------------------------------------------+ #
+NumbersButtonColor: "&5&l"
+ExitButtonColor: "&5&l"
+EnterButtonColor: "&5&l"
+
+# +------------------------------------------------------+ #
+# |                    Button ID                         | #
+# +------------------------------------------------------+ #
+
+NumbersButtonID: CONDUIT
+ExitButtonID: BARRIER
+EnterButtonID: ARROW
+BorderID: BLACK_STAINED_GLASS_PANE
